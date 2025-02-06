@@ -22,10 +22,10 @@ repository               : "joshdellaz/joshdellaz.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "my_face.jpg"
+  avatar           : "my_face.png"
   name             : "Josh Lazaruk"
   pronouns         : # example: "she/her"  
-  bio              : "I like to design, integrate, and test innovative systems"
+  bio              : "designer, integrater, and tester of complex systems | generalist"
   location         : "Montréal, Canada"
   uri              : # URL
   email            : "josh.lazaruk@gmail.com" 
