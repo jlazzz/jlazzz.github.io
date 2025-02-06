@@ -10,6 +10,7 @@ html {
 body {
   /* Set via _themes.scss */
   color: var(--global-text-color);
+  font-size: 14px !important;
   background-color: var(--global-bg-color);
 
   margin: 0;
@@ -61,6 +62,7 @@ small, .small {
 }
 
 p {
+  font-size: 14px !important;
   margin-bottom: 1.3em;
 }
 
