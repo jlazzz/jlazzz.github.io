@@ -50,12 +50,12 @@ Applications of Systems Engineering Methodologies to an Undergraduate Student Vo
 
 ### Athena On-Board Computer
 
-#### Motivation
+**Motivation**
 The “brain” of a satellite is the onboard computer (OBC), which performs computations and sends/receives commands and data with other subsystems. With commercial Cube Satellite OBCs costing around $5 000 to $23 000 USD or more (excluding software), the Athena II OBC aims to lower the barrier to space through its fully open-source design and hardware cost of less than $600 per unit while retaining many features that minimize risk of damage and upsets due to radiation.
 
 Three Athena II OBCs were launched to space on the Ex-Alta 2, YukonSat, and AuroraSat CubeSats in 2022.
 
-Features:
+**Features:**
 - Follows PC/104 form factor and in-house standard (Open CubeSat Platform Bus Specification)
 - Interfaces w/ other subsystems CAN (x2), UART (x4), SPI (x3), I2C (x1), GPIO (x14)
 - Real-time clock w/ backup power capacitor, temperature sensors, 9-axis inertial measurement unit, and current sensors
@@ -66,13 +66,13 @@ Features:
 - Latch-up protection for on-board buck converter
 
 ![diagram](/images/athena_block_diagram.png)
-![altium](/images/athena_altium.png)
-![pcb](/images/athena_pcb.png)
+<img src="/images/athena_altium.png" alt="altium" width="200"/>
+<img src="/images/athena_pcb.png" alt="pcb" width="200"/>
 
 ### Software-Defined Radio
 I created and tested the signal processing and link layer processing chain for AlbertaSat's UHF and S-Band ground stations, which use the [Ettus Research USRP B205mini-i SDR](https://www.ettus.com/all-products/usrp-b205mini-i/)
 
-https://github.com/AlbertaSat/ex2_sdr/tree/master/gnuradio
+[https://github.com/AlbertaSat/ex2_sdr/tree/master/gnuradio](https://github.com/AlbertaSat/ex2_sdr/tree/master/gnuradio)
 
 UHF
 - Half-duplex w/ automatic push-to-talk handling for RF frontend switching
@@ -98,13 +98,13 @@ I designed, built, and tested Charon, an open-source GPS receiver PCB. It also d
 ![pcb](/images/charon.png)
 
 ## Software Development
-Developed the driver code for ICs and peripherals on the Athena OBC, including SD card integration with file system and telemetry integration with FreeRTOS: https://github.com/AlbertaSat/ex2_obc_software 
-Integrated ground station software data handling with GNURadio frontend, including beacon parsing and decoding: https://github.com/AlbertaSat/ex2_ground_station_software
+Developed the driver code for ICs and peripherals on the Athena OBC, including SD card integration with file system and telemetry integration with FreeRTOS: [https://github.com/AlbertaSat/ex2_obc_software](https://github.com/AlbertaSat/ex2_obc_software)
+Integrated ground station software data handling with GNURadio frontend, including beacon parsing and decoding: [https://github.com/AlbertaSat/ex2_ground_station_software](https://github.com/AlbertaSat/ex2_ground_station_software)
 
 # Capstone Project - Open-Source CubeSat Optical Downlink Receiver and Processing System 
 In my final year of Engineering Physics I realized a high-performance lasercom system with two of my colleagues and presented the poster at [SmallSat](https://smallsat.org/) 2022 in Logan, Utah. I learned a lot about signal processing and implemented it C, which was run on an embedded system with high-speed DAC and ADC.
 
-https://github.com/joshdellaz/laser_satellite_receiver
+[https://github.com/joshdellaz/laser_satellite_receiver](https://github.com/joshdellaz/laser_satellite_receiver)
 
 <iframe src="files/capstone_poster.pdf" width="100%" height="600px"></iframe>
 
@@ -113,7 +113,7 @@ https://github.com/joshdellaz/laser_satellite_receiver
 
 ## Full-Stack Development: Habit Tracker
 
-I wanted a barebones and extremely simple web-based habit tracker, so I made one! It gave me a bit more experience with html, javascript, and SQL databases: https://github.com/joshdellaz/habit_tracker
+I wanted a barebones and extremely simple web-based habit tracker, so I made one! It gave me a bit more experience with html, javascript, and SQL databases: [https://github.com/joshdellaz/habit_tracker](https://github.com/joshdellaz/habit_tracker)
 
 ## Orbit Modelling w/ Ansys STK for Satellite Return Rate
 
@@ -123,13 +123,12 @@ I created a simple simulation in ![STK](https://www.ansys.com/products/missions/
 
 ![reflow](/images/toaster_reflow.png)
 
-#### Motivation
+**Motivation**
 Unfortunately COVID-19 caused shutdown of the facilities necessary for AlbertaSat to solder circuit boards, so a workaround was needed to avoid falling behind schedule. 
 
 Professional solder reflow ovens are typically quite expensive, but luckily I was able to get my hands on a toaster oven and retrofit it to use a PIC microcontroller board to reflow circuit boards for at-home work.
 
-#### Overview
-
+**Overview**
 With the ability to custom-program temperature profiles, the oven can reach > 250 °C and has sufficient stability to successfully solder 0.8 mm pitch, tin-ball, ball grid array (BGA) chips (performance w/ smaller pitch components has not yet been tested). Temperature profile testing and optimization was done to ensure performance was sufficient before being used to solder expensive hardware.
 
 
