@@ -17,7 +17,7 @@ Hey, I'm Josh! I have a BSc in Engineering Physics from the University of Albert
 
 # AlbertaSat
 
-[AlbertaSat](https://albertasat.ca/) is a student group that makes satellites. Throughout my undergrad, I worked on getting three satellites designed, built, and tested: Ex-Alta 2, YukonSat, and AuroraSat. An overview of the initiative was presented at the 2021 Small Satellite Conference: https://digitalcommons.usu.edu/smallsat/2021/all2021/119/
+[AlbertaSat](https://albertasat.ca/) is a student group that makes satellites. Throughout my undergrad, I worked on getting three satellites designed, built, and tested: Ex-Alta 2, YukonSat, and AuroraSat. An overview of the initiative was presented at the 2021 Small Satellite Conference: [https://digitalcommons.usu.edu/smallsat/2021/all2021/119/](https://digitalcommons.usu.edu/smallsat/2021/all2021/119/)
 
 ## Integration and Testing
 
@@ -42,7 +42,7 @@ This project presented a unique systems engineering challenge, since most Albert
 
 My team presented a poster on this work at the Small Satellite Conference in 2023:
 
-Applications of Systems Engineering Methodologies to an Undergraduate Student Volunteer-Led CubeSat Constellation: https://digitalcommons.usu.edu/smallsat/2023/all2023/140/
+Applications of Systems Engineering Methodologies to an Undergraduate Student Volunteer-Led CubeSat Constellation [https://digitalcommons.usu.edu/smallsat/2023/all2023/140/](https://digitalcommons.usu.edu/smallsat/2023/all2023/140/)
 
 <iframe src="files/systems_eng_methodologies.pdf" width="100%" height="600px"></iframe>
 
@@ -65,7 +65,7 @@ Three Athena II OBCs were launched to space on the Ex-Alta 2, YukonSat, and Auro
 - Designed to -40 to +85 °C operational temperature range
 - Latch-up protection for on-board buck converter
 
-![diagram](/images/athena_block_diagram.png)
+<img src="/images/athena_block_diagram.png" alt="block_diagram" width="400"/>
 <img src="/images/athena_altium.png" alt="altium" width="200"/>
 <img src="/images/athena_pcb.png" alt="pcb" width="200"/>
 
