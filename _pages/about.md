@@ -9,6 +9,9 @@ redirect_from:
 
 Hey, I'm Josh! I have a BSc in Engineering Physics from the University of Alberta. I've had the pleasure of working on many cool projects with many cool people. Here's a bit about them.
 
+* TOC
+{:toc}
+
 # Work Experience
 - Test Specialist at Xiphos Systems Corporation
 - Systems, Embedded HW and SW roles at AlbertaSat
