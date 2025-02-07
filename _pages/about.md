@@ -28,10 +28,10 @@ Hey, I'm Josh! I have a BSc in Engineering Physics from the University of Albert
 
 ## Integration and Testing
 
-I managed all testing activities for Northern SPIRIT satellites. We took an iterative approach to testing, utilizing rapid prototyping, engineering models, and FlatSats (pictured below) to rapidly test and find problems as early as possible.
+I managed all testing activities for Northern SPIRIT satellites. We took an iterative approach to testing, utilizing rapid prototyping, engineering models, and FlatSats (pictured below) to rapidly test and find problems as early as possible.  
 <img src="/images/flatsat.png" alt="flatsat" width="400"/>  
 
-After sweat, tears (no blood, luckily), thermal and vibration testing we had three functional ready-to-launch satellites!
+After sweat, tears (no blood, luckily), thermal and vibration testing we had three functional ready-to-launch satellites!  
 <img src="/images/cubesats.jpg" alt="cubesats" width="400"/>  
 
 ## Systems Engineering
