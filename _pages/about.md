@@ -7,17 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-Hey, I'm Josh! I have a BSc in Engineering Physics from the University of Alberta. I've had the pleasure of working on many cool projects with many cool people. Here's a bit about them.
+Hey, I'm Josh! I have a BSc in Engineering Physics from the University of Alberta. Over the years, I've had the pleasure of working on many cool projects with many cool people. Here's a bit about them.
 
 # Navigation
 ---
 * TOC
 {:toc}
 
-# Work Experience
+# Work Experience Summary
 ---
 - Test Specialist at Xiphos Systems Corporation
-- Systems, Embedded HW and SW roles at AlbertaSat
+- Various Systems, Test, Embedded HW and SW roles at AlbertaSat
 - Systems Engineering Intern at the Canadian Space Agency
 - Medical Physics Research Internship at the Cross Cancer Institute
 
@@ -41,7 +41,7 @@ As systems lead, I managed:
 - Interface control
 - Trade studies
 - COTS supplier procurement
-- System design (including harnessing...)
+- System design
 - Over 300 system requirements (including RfW, RfD, and NCR handling)
 - Configuration management of mission-critical documents
 
@@ -51,14 +51,14 @@ My team presented a poster on this work at the Small Satellite Conference in 202
 
 Applications of Systems Engineering Methodologies to an Undergraduate Student Volunteer-Led CubeSat Constellation [https://digitalcommons.usu.edu/smallsat/2023/all2023/140/](https://digitalcommons.usu.edu/smallsat/2023/all2023/140/)
 
-<iframe src="files/systems_eng_methodologies.pdf" width="100%" height="600px"></iframe><br><br><br><br>
+<iframe src="files/systems_eng_methodologies.pdf" width="100%" height="600px"></iframe><br><br>
 
 ## Embedded Systems
 
 ### Athena On-Board Computer
 ---
 
-**Motivation** 
+**Motivation**  
 The “brain” of a satellite is the onboard computer (OBC), which performs computations and sends/receives commands and data with other subsystems. With commercial Cube Satellite OBCs costing around $5 000 to $23 000 USD or more (excluding software), the Athena II OBC aims to lower the barrier to space through its fully open-source design and hardware cost of less than $600 per unit while retaining many features that minimize risk of damage and upsets due to radiation.
 
 Three Athena II OBCs were launched to space on the Ex-Alta 2, YukonSat, and AuroraSat CubeSats in 2022.
@@ -108,8 +108,8 @@ I designed, built, and tested Charon, an open-source GPS receiver PCB. It also d
 <img src="/images/charon.png" alt="charon" width="250"/>  
 
 ## Software Development
-Developed the driver code for ICs and peripherals on the Athena OBC, including SD card integration with file system and telemetry integration with FreeRTOS: [https://github.com/AlbertaSat/ex2_obc_software](https://github.com/AlbertaSat/ex2_obc_software)
-Integrated ground station software data handling with GNURadio frontend, including beacon parsing and decoding: [https://github.com/AlbertaSat/ex2_ground_station_software](https://github.com/AlbertaSat/ex2_ground_station_software) <br><br>
+- Developed the driver code for ICs and peripherals on the Athena OBC, including SD card integration with file system and telemetry integration with FreeRTOS: [https://github.com/AlbertaSat/ex2_obc_software](https://github.com/AlbertaSat/ex2_obc_software)
+- Integrated ground station software data handling with GNURadio frontend, including beacon parsing and decoding: [https://github.com/AlbertaSat/ex2_ground_station_software](https://github.com/AlbertaSat/ex2_ground_station_software) <br><br>
 
 # Capstone Project - Open-Source CubeSat Optical Downlink Receiver and Processing System 
 ---
@@ -117,12 +117,11 @@ In my final year of Engineering Physics I realized a high-performance lasercom s
 
 [https://github.com/joshdellaz/laser_satellite_receiver](https://github.com/joshdellaz/laser_satellite_receiver)
 
-<iframe src="files/capstone_poster.pdf" width="100%" height="600px"></iframe>  
+<iframe src="files/capstone_poster.pdf" width="100%" height="600px"></iframe> <br><br>
 
 
 # Misc.
 ---
-
 ## Full-Stack Development: Habit Tracker
 
 I wanted a barebones and extremely simple web-based habit tracker, so I made one! It gave me a bit more experience with html, javascript, and SQL databases: [https://github.com/joshdellaz/habit_tracker](https://github.com/joshdellaz/habit_tracker)
@@ -133,13 +132,13 @@ I created a simple simulation in [STK](https://www.ansys.com/products/missions/a
 
 ## Toaster Reflow Oven
 
-![reflow](/images/toaster_reflow.png)
+<img src="/images/toaster_reflow.png" alt="reflow" width="500"/><br><br>
 
 **Motivation**  
 
-Unfortunately COVID-19 caused shutdown of the facilities necessary for AlbertaSat to solder circuit boards, so a workaround was needed to avoid falling behind schedule. 
+COVID-19 caused shutdown of the facilities necessary for AlbertaSat to solder circuit boards, so a workaround was needed to avoid falling behind schedule. 
 
-Professional solder reflow ovens are typically quite expensive, but luckily I was able to get my hands on a toaster oven and retrofit it to use a PIC microcontroller board to reflow circuit boards for at-home work.
+Professional solder reflow ovens are typically quite expensive, but I was able to get my hands on a toaster oven and retrofit it to use a PIC microcontroller board to reflow circuit boards for at-home work.
 
 **Overview**  
 
