@@ -115,7 +115,7 @@ I designed, built, and tested Charon, an open-source GPS receiver PCB. It also d
 ---
 In my final year of Engineering Physics, I realized a high-performance lasercom system with two of my colleagues and presented the poster at [SmallSat](https://smallsat.org/) 2022 in Logan, Utah. I learned a lot about signal processing and implemented it in C, which was run on an embedded system with a high-speed DAC and ADC.
 
-[https://github.com/joshdellaz/laser_satellite_receiver](https://github.com/joshdellaz/laser_satellite_receiver)
+[https://github.com/jlazzz/laser_satellite_receiver](https://github.com/jlazzz/laser_satellite_receiver)
 
 <iframe src="files/capstone_poster.pdf" width="100%" height="600px"></iframe> <br><br>
 
@@ -124,7 +124,7 @@ In my final year of Engineering Physics, I realized a high-performance lasercom 
 ---
 ## 🌐 Full-Stack Development: Habit Tracker
 
-I wanted a barebones and extremely simple web-based habit tracker, so I made one! It gave me a bit more experience with HTML, JavaScript, and SQL databases: [https://github.com/joshdellaz/habit_tracker](https://github.com/joshdellaz/habit_tracker)
+I wanted a barebones and extremely simple web-based habit tracker, so I made one! It gave me a bit more experience with HTML, JavaScript, and SQL databases: [https://github.com/jlazzz/habit_tracker](https://github.com/jlazzz/habit_tracker)
 
 ## 🌍 Orbit Modelling w/ Ansys STK for Satellite Return Rate
 
