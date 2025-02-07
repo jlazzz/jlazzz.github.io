@@ -28,11 +28,11 @@ Hey, I'm Josh! I have a BSc in Engineering Physics from the University of Albert
 
 ## Integration and Testing
 
-I managed all testing activities for Northern SPIRIT satellites. We took an iterative approach to testing, utilizing rapid prototyping, engineering models, and FlatSats (pictured below) to rapidly test and find problems as early as possible.  
-<img src="/images/flatsat.png" alt="flatsat" width="400"/>  
+I managed all testing activities for Northern SPIRIT satellites. We took an iterative approach to testing, utilizing rapid prototyping, engineering models, and FlatSats (pictured below) to rapidly test and find problems as early as possible.<br><br>
+<img src="/images/flatsat.png" alt="flatsat" width="500"/><br><br>
 
-After sweat, tears (no blood, luckily), thermal and vibration testing we had three functional ready-to-launch satellites!  
-<img src="/images/cubesats.jpg" alt="cubesats" width="400"/>  
+After sweat, tears (no blood, luckily), thermal and vibration testing we had three functional ready-to-launch satellites!<br><br>
+<img src="/images/cubesats.jpg" alt="cubesats" width="500"/><br><br>
 
 ## Systems Engineering
 
@@ -51,7 +51,7 @@ My team presented a poster on this work at the Small Satellite Conference in 202
 
 Applications of Systems Engineering Methodologies to an Undergraduate Student Volunteer-Led CubeSat Constellation [https://digitalcommons.usu.edu/smallsat/2023/all2023/140/](https://digitalcommons.usu.edu/smallsat/2023/all2023/140/)
 
-<iframe src="files/systems_eng_methodologies.pdf" width="100%" height="600px"></iframe>  
+<iframe src="files/systems_eng_methodologies.pdf" width="100%" height="600px"></iframe><br><br><br><br>
 
 ## Embedded Systems
 
@@ -73,9 +73,9 @@ Three Athena II OBCs were launched to space on the Ex-Alta 2, YukonSat, and Auro
 - Designed to -40 to +85 °C operational temperature range
 - Latch-up protection for on-board buck converter
 
-<img src="/images/athena_block_diagram.png" alt="block_diagram" width="400"/>
-<img src="/images/athena_altium.png" alt="altium" width="200"/>
-<img src="/images/athena_pcb.png" alt="pcb" width="200"/>
+<img src="/images/athena_block_diagram.png" alt="block_diagram" width="500"/><br><br>
+<img src="/images/athena_altium.png" alt="altium" width="250"/>
+<img src="/images/athena_pcb.png" alt="pcb" width="250"/>
 
 ### Software-Defined Radio
 ---
@@ -105,11 +105,11 @@ S-Band
 
 I designed, built, and tested Charon, an open-source GPS receiver PCB. It also does a few other mission-specific things (thermistor interface, payload connector adapter, power switch latch).
 
-<img src="/images/charon.png" alt="charon" width="400"/>  
+<img src="/images/charon.png" alt="charon" width="250"/>  
 
 ## Software Development
 Developed the driver code for ICs and peripherals on the Athena OBC, including SD card integration with file system and telemetry integration with FreeRTOS: [https://github.com/AlbertaSat/ex2_obc_software](https://github.com/AlbertaSat/ex2_obc_software)
-Integrated ground station software data handling with GNURadio frontend, including beacon parsing and decoding: [https://github.com/AlbertaSat/ex2_ground_station_software](https://github.com/AlbertaSat/ex2_ground_station_software)  
+Integrated ground station software data handling with GNURadio frontend, including beacon parsing and decoding: [https://github.com/AlbertaSat/ex2_ground_station_software](https://github.com/AlbertaSat/ex2_ground_station_software) <br><br>
 
 # Capstone Project - Open-Source CubeSat Optical Downlink Receiver and Processing System 
 ---
