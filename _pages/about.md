@@ -31,7 +31,7 @@ Hey, I'm Josh! I have a BSc in Engineering Physics from the University of Albert
 I managed all testing activities for Northern SPIRIT satellites. We took an iterative approach to testing, utilizing rapid prototyping, engineering models, and FlatSats (pictured below) to rapidly test and find problems as early as possible.<br><br>
 <img src="/images/flatsat.png" alt="flatsat" width="500"/><br><br>
 
-After sweat, tears (no blood, luckily), thermal and vibration testing we had three functional ready-to-launch satellites!<br><br>
+After sweat, tears (no blood, luckily), thermal and vibration testing, we had three functional, ready-to-launch satellites!<br><br>
 <img src="/images/cubesats.jpg" alt="cubesats" width="500"/><br><br>
 
 ## Systems Engineering
@@ -45,7 +45,7 @@ As systems lead, I managed:
 - Over 300 system requirements (including RfW, RfD, and NCR handling)
 - Configuration management of mission-critical documents
 
-This project presented a unique systems engineering challenge, since most AlbertaSat members are undergraduate student volunteers with limited time available to commit. This also leads to a high turnover rate and short average tenure, since most people leave the group once they graduate.
+This project presented a unique systems engineering challenge since most AlbertaSat members are undergraduate student volunteers with limited time available to commit. This also leads to a high turnover rate and short average tenure, since most people leave the group once they graduate.
 
 My team presented a poster on this work at the Small Satellite Conference in 2023:
 
@@ -59,18 +59,18 @@ Applications of Systems Engineering Methodologies to an Undergraduate Student Vo
 ---
 
 **Motivation**  
-The “brain” of a satellite is the onboard computer (OBC), which performs computations and sends/receives commands and data with other subsystems. With commercial Cube Satellite OBCs costing around $5 000 to $23 000 USD or more (excluding software), the Athena II OBC aims to lower the barrier to space through its fully open-source design and hardware cost of less than $600 per unit while retaining many features that minimize risk of damage and upsets due to radiation.
+The “brain” of a satellite is the onboard computer (OBC), which performs computations and sends/receives commands and data with other subsystems. With commercial Cube Satellite OBCs costing around $5 000 to $23 000 USD or more (excluding software), the Athena II OBC aims to lower the barrier to space through its fully open-source design and hardware cost of less than $600 per unit while retaining many features that minimize the risk of damage and upsets due to radiation.
 
 Three Athena II OBCs were launched to space on the Ex-Alta 2, YukonSat, and AuroraSat CubeSats in 2022.
 
 **Features:**
-- Follows PC/104 form factor and in-house standard (Open CubeSat Platform Bus Specification)
+- Follows the PC/104 form factor and in-house standard (Open CubeSat Platform Bus Specification)
 - Interfaces w/ other subsystems CAN (x2), UART (x4), SPI (x3), I2C (x1), GPIO (x14)
 - Real-time clock w/ backup power capacitor, temperature sensors, 9-axis inertial measurement unit, and current sensors
 - 3-axis magnetorquer control
-- Solar panel interface w/ overcurrent protection: power, data, and deployable burnwire control
-- Error-correcting code on all storage media (except SD Card)
-- Designed to -40 to +85 °C operational temperature range
+- Solar panel interface w/ overcurrent protection: power, data, and deployable burn wire control
+- Error-correcting code on all storage media (except SD card)
+- Designed to -40 to +85°C operational temperature range
 - Latch-up protection for on-board buck converter
 
 <img src="/images/athena_block_diagram.png" alt="block_diagram" width="500"/><br><br>
@@ -79,7 +79,7 @@ Three Athena II OBCs were launched to space on the Ex-Alta 2, YukonSat, and Auro
 
 ### Software-Defined Radio
 ---
-I created and tested the signal processing and link layer processing chain for AlbertaSat's UHF and S-Band ground stations, which use the [Ettus Research USRP B205mini-i SDR](https://www.ettus.com/all-products/usrp-b205mini-i/)
+I created and tested the signal processing and link layer processing chain for AlbertaSat's UHF and S-Band ground stations, which use the [Ettus Research USRP B205mini-i SDR.](https://www.ettus.com/all-products/usrp-b205mini-i/)
 
 [https://github.com/AlbertaSat/ex2_sdr/tree/master/gnuradio](https://github.com/AlbertaSat/ex2_sdr/tree/master/gnuradio)
 
@@ -111,9 +111,9 @@ I designed, built, and tested Charon, an open-source GPS receiver PCB. It also d
 - Developed the driver code for ICs and peripherals on the Athena OBC, including SD card integration with file system and telemetry integration with FreeRTOS: [https://github.com/AlbertaSat/ex2_obc_software](https://github.com/AlbertaSat/ex2_obc_software)
 - Integrated ground station software data handling with GNURadio frontend, including beacon parsing and decoding: [https://github.com/AlbertaSat/ex2_ground_station_software](https://github.com/AlbertaSat/ex2_ground_station_software) <br><br>
 
-# Capstone Project - Open-Source CubeSat Optical Downlink Receiver and Processing System 
+# Capstone Project--Open-Source CubeSat Optical Downlink Receiver and Processing System 
 ---
-In my final year of Engineering Physics I realized a high-performance lasercom system with two of my colleagues and presented the poster at [SmallSat](https://smallsat.org/) 2022 in Logan, Utah. I learned a lot about signal processing and implemented it C, which was run on an embedded system with high-speed DAC and ADC.
+In my final year of Engineering Physics, I realized a high-performance lasercom system with two of my colleagues and presented the poster at [SmallSat](https://smallsat.org/) 2022 in Logan, Utah. I learned a lot about signal processing and implemented it in C, which was run on an embedded system with a high-speed DAC and ADC.
 
 [https://github.com/joshdellaz/laser_satellite_receiver](https://github.com/joshdellaz/laser_satellite_receiver)
 
@@ -124,7 +124,7 @@ In my final year of Engineering Physics I realized a high-performance lasercom s
 ---
 ## Full-Stack Development: Habit Tracker
 
-I wanted a barebones and extremely simple web-based habit tracker, so I made one! It gave me a bit more experience with html, javascript, and SQL databases: [https://github.com/joshdellaz/habit_tracker](https://github.com/joshdellaz/habit_tracker)
+I wanted a barebones and extremely simple web-based habit tracker, so I made one! It gave me a bit more experience with HTML, JavaScript, and SQL databases: [https://github.com/joshdellaz/habit_tracker](https://github.com/joshdellaz/habit_tracker)
 
 ## Orbit Modelling w/ Ansys STK for Satellite Return Rate
 
@@ -136,13 +136,13 @@ I created a simple simulation in [STK](https://www.ansys.com/products/missions/a
 
 **Motivation**  
 
-COVID-19 caused shutdown of the facilities necessary for AlbertaSat to solder circuit boards, so a workaround was needed to avoid falling behind schedule. 
+COVID-19 caused the shutdown of the facilities necessary for AlbertaSat to solder circuit boards, so a workaround was needed to avoid falling behind schedule. 
 
 Professional solder reflow ovens are typically quite expensive, but I was able to get my hands on a toaster oven and retrofit it to use a PIC microcontroller board to reflow circuit boards for at-home work.
 
 **Overview**  
 
-With the ability to custom-program temperature profiles, the oven can reach > 250 °C and has sufficient stability to successfully solder 0.8 mm pitch, tin-ball, ball grid array (BGA) chips (performance w/ smaller pitch components has not yet been tested). Temperature profile testing and optimization was done to ensure performance was sufficient before being used to solder expensive hardware.
+With the ability to custom-program temperature profiles, the oven can reach > 250°C and has sufficient stability to successfully solder 0.8 mm pitch, tin-ball, ball grid array (BGA) chips (performance w/ smaller pitch components has not yet been tested). Temperature profile testing and optimization was done to ensure performance was sufficient before being used to solder expensive hardware.
 
 
 # Other...
