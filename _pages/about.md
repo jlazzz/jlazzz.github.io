@@ -10,16 +10,19 @@ redirect_from:
 Hey, I'm Josh! I have a BSc in Engineering Physics from the University of Alberta. I've had the pleasure of working on many cool projects with many cool people. Here's a bit about them.
 
 # Navigation
+---
 * TOC
 {:toc}
 
 # Work Experience
+---
 - Test Specialist at Xiphos Systems Corporation
 - Systems, Embedded HW and SW roles at AlbertaSat
 - Systems Engineering Intern at the Canadian Space Agency
 - Medical Physics Research Internship at the Cross Cancer Institute
 
 # AlbertaSat
+---
 
 [AlbertaSat](https://albertasat.ca/) is a student group that makes satellites. Throughout my undergrad, I worked on getting three satellites designed, built, and tested: Ex-Alta 2, YukonSat, and AuroraSat. An overview of the initiative was presented at the 2021 Small Satellite Conference: [https://digitalcommons.usu.edu/smallsat/2021/all2021/119/](https://digitalcommons.usu.edu/smallsat/2021/all2021/119/)
 
@@ -53,8 +56,9 @@ Applications of Systems Engineering Methodologies to an Undergraduate Student Vo
 ## Embedded Systems
 
 ### Athena On-Board Computer
+---
 
-#### Motivation
+**Motivation** 
 The “brain” of a satellite is the onboard computer (OBC), which performs computations and sends/receives commands and data with other subsystems. With commercial Cube Satellite OBCs costing around $5 000 to $23 000 USD or more (excluding software), the Athena II OBC aims to lower the barrier to space through its fully open-source design and hardware cost of less than $600 per unit while retaining many features that minimize risk of damage and upsets due to radiation.
 
 Three Athena II OBCs were launched to space on the Ex-Alta 2, YukonSat, and AuroraSat CubeSats in 2022.
@@ -74,6 +78,7 @@ Three Athena II OBCs were launched to space on the Ex-Alta 2, YukonSat, and Auro
 <img src="/images/athena_pcb.png" alt="pcb" width="200"/>
 
 ### Software-Defined Radio
+---
 I created and tested the signal processing and link layer processing chain for AlbertaSat's UHF and S-Band ground stations, which use the [Ettus Research USRP B205mini-i SDR](https://www.ettus.com/all-products/usrp-b205mini-i/)
 
 [https://github.com/AlbertaSat/ex2_sdr/tree/master/gnuradio](https://github.com/AlbertaSat/ex2_sdr/tree/master/gnuradio)
@@ -96,6 +101,7 @@ S-Band
 ![UHF](/images/uhf_sdr_gnuradio.png)  
 
 ### Charon GPS Receiver
+---
 
 I designed, built, and tested Charon, an open-source GPS receiver PCB. It also does a few other mission-specific things (thermistor interface, payload connector adapter, power switch latch).
 
@@ -106,6 +112,7 @@ Developed the driver code for ICs and peripherals on the Athena OBC, including S
 Integrated ground station software data handling with GNURadio frontend, including beacon parsing and decoding: [https://github.com/AlbertaSat/ex2_ground_station_software](https://github.com/AlbertaSat/ex2_ground_station_software)  
 
 # Capstone Project - Open-Source CubeSat Optical Downlink Receiver and Processing System 
+---
 In my final year of Engineering Physics I realized a high-performance lasercom system with two of my colleagues and presented the poster at [SmallSat](https://smallsat.org/) 2022 in Logan, Utah. I learned a lot about signal processing and implemented it C, which was run on an embedded system with high-speed DAC and ADC.
 
 [https://github.com/joshdellaz/laser_satellite_receiver](https://github.com/joshdellaz/laser_satellite_receiver)
@@ -114,6 +121,7 @@ In my final year of Engineering Physics I realized a high-performance lasercom s
 
 
 # Misc.
+---
 
 ## Full-Stack Development: Habit Tracker
 
@@ -127,18 +135,19 @@ I created a simple simulation in [STK](https://www.ansys.com/products/missions/a
 
 ![reflow](/images/toaster_reflow.png)
 
-#### Motivation
+**Motivation**  
 
 Unfortunately COVID-19 caused shutdown of the facilities necessary for AlbertaSat to solder circuit boards, so a workaround was needed to avoid falling behind schedule. 
 
 Professional solder reflow ovens are typically quite expensive, but luckily I was able to get my hands on a toaster oven and retrofit it to use a PIC microcontroller board to reflow circuit boards for at-home work.
 
-#### Overview
+**Overview**  
 
 With the ability to custom-program temperature profiles, the oven can reach > 250 °C and has sufficient stability to successfully solder 0.8 mm pitch, tin-ball, ball grid array (BGA) chips (performance w/ smaller pitch components has not yet been tested). Temperature profile testing and optimization was done to ensure performance was sufficient before being used to solder expensive hardware.
 
 
 # Other...
+---
 
 Some other areas that fascinate me and that I want to learn and create in:
 - Virtual/mixed/augmented reality
