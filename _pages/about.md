@@ -53,7 +53,7 @@ Applications of Systems Engineering Methodologies to an Undergraduate Student Vo
 
 ### Athena On-Board Computer
 
-**Motivation**
+#### Motivation
 The “brain” of a satellite is the onboard computer (OBC), which performs computations and sends/receives commands and data with other subsystems. With commercial Cube Satellite OBCs costing around $5 000 to $23 000 USD or more (excluding software), the Athena II OBC aims to lower the barrier to space through its fully open-source design and hardware cost of less than $600 per unit while retaining many features that minimize risk of damage and upsets due to radiation.
 
 Three Athena II OBCs were launched to space on the Ex-Alta 2, YukonSat, and AuroraSat CubeSats in 2022.
@@ -126,12 +126,14 @@ I created a simple simulation in ![STK](https://www.ansys.com/products/missions/
 
 ![reflow](/images/toaster_reflow.png)
 
-**Motivation**
+#### Motivation
+
 Unfortunately COVID-19 caused shutdown of the facilities necessary for AlbertaSat to solder circuit boards, so a workaround was needed to avoid falling behind schedule. 
 
 Professional solder reflow ovens are typically quite expensive, but luckily I was able to get my hands on a toaster oven and retrofit it to use a PIC microcontroller board to reflow circuit boards for at-home work.
 
-**Overview**
+#### Overview
+
 With the ability to custom-program temperature profiles, the oven can reach > 250 °C and has sufficient stability to successfully solder 0.8 mm pitch, tin-ball, ball grid array (BGA) chips (performance w/ smaller pitch components has not yet been tested). Temperature profile testing and optimization was done to ensure performance was sufficient before being used to solder expensive hardware.
 
 
