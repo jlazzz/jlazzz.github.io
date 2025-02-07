@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "📌 About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -14,19 +14,19 @@ Hey, I'm Josh! I have a BSc in Engineering Physics from the University of Albert
 * TOC
 {:toc}
 
-# Work Experience Summary
+# 💼 Work Experience Summary
 ---
 - Test Specialist at Xiphos Systems Corporation
 - Various Systems, Test, Embedded HW and SW roles at AlbertaSat
 - Systems Engineering Intern at the Canadian Space Agency
 - Medical Physics Research Internship at the Cross Cancer Institute
 
-# AlbertaSat
+# 🛰️  AlbertaSat
 ---
 
 [AlbertaSat](https://albertasat.ca/) is a student group that makes satellites. Throughout my undergrad, I worked on getting three satellites designed, built, and tested: Ex-Alta 2, YukonSat, and AuroraSat. An overview of the initiative was presented at the 2021 Small Satellite Conference: [https://digitalcommons.usu.edu/smallsat/2021/all2021/119/](https://digitalcommons.usu.edu/smallsat/2021/all2021/119/)
 
-## Integration and Testing
+## 🛠️  Integration and Testing
 
 I managed all testing activities for Northern SPIRIT satellites. We took an iterative approach to testing, utilizing rapid prototyping, engineering models, and FlatSats (pictured below) to rapidly test and find problems as early as possible.<br><br>
 <img src="/images/flatsat.png" alt="flatsat" width="500"/><br><br>
@@ -34,7 +34,7 @@ I managed all testing activities for Northern SPIRIT satellites. We took an iter
 After sweat, tears (no blood, luckily), thermal and vibration testing, we had three functional, ready-to-launch satellites!<br><br>
 <img src="/images/cubesats.jpg" alt="cubesats" width="500"/><br><br>
 
-## Systems Engineering
+## 🔄 Systems Engineering
 
 As systems lead, I managed:
 - Test planning
@@ -53,7 +53,7 @@ Applications of Systems Engineering Methodologies to an Undergraduate Student Vo
 
 <iframe src="files/systems_eng_methodologies.pdf" width="100%" height="600px"></iframe><br><br>
 
-## Embedded Systems
+## 🤖 Embedded Systems
 
 ### Athena On-Board Computer
 ---
@@ -107,11 +107,11 @@ I designed, built, and tested Charon, an open-source GPS receiver PCB. It also d
 
 <img src="/images/charon.png" alt="charon" width="250"/>  
 
-## Software Development
+## 📜 Software Development
 - Developed the driver code for ICs and peripherals on the Athena OBC, including SD card integration with file system and telemetry integration with FreeRTOS: [https://github.com/AlbertaSat/ex2_obc_software](https://github.com/AlbertaSat/ex2_obc_software)
 - Integrated ground station software data handling with GNURadio frontend, including beacon parsing and decoding: [https://github.com/AlbertaSat/ex2_ground_station_software](https://github.com/AlbertaSat/ex2_ground_station_software) <br><br>
 
-# Capstone Project--Open-Source CubeSat Optical Downlink Receiver and Processing System 
+# 🛸 Capstone Project--Open-Source CubeSat Optical Downlink Receiver and Processing System 
 ---
 In my final year of Engineering Physics, I realized a high-performance lasercom system with two of my colleagues and presented the poster at [SmallSat](https://smallsat.org/) 2022 in Logan, Utah. I learned a lot about signal processing and implemented it in C, which was run on an embedded system with a high-speed DAC and ADC.
 
@@ -120,17 +120,17 @@ In my final year of Engineering Physics, I realized a high-performance lasercom 
 <iframe src="files/capstone_poster.pdf" width="100%" height="600px"></iframe> <br><br>
 
 
-# Misc.
+# 📚 Misc.
 ---
-## Full-Stack Development: Habit Tracker
+## 🌐 Full-Stack Development: Habit Tracker
 
 I wanted a barebones and extremely simple web-based habit tracker, so I made one! It gave me a bit more experience with HTML, JavaScript, and SQL databases: [https://github.com/joshdellaz/habit_tracker](https://github.com/joshdellaz/habit_tracker)
 
-## Orbit Modelling w/ Ansys STK for Satellite Return Rate
+## 🌍 Orbit Modelling w/ Ansys STK for Satellite Return Rate
 
 I created a simple simulation in [STK](https://www.ansys.com/products/missions/ansys-stk) to estimate downlink time at various ground stations in Canada, given a specific antenna radiation pattern.
 
-## Toaster Reflow Oven
+## 🍞 Toaster Reflow Oven
 
 <img src="/images/toaster_reflow.png" alt="reflow" width="500"/><br><br>
 
@@ -145,8 +145,7 @@ Professional solder reflow ovens are typically quite expensive, but I was able t
 With the ability to custom-program temperature profiles, the oven can reach > 250°C and has sufficient stability to successfully solder 0.8 mm pitch, tin-ball, ball grid array (BGA) chips (performance w/ smaller pitch components has not yet been tested). Temperature profile testing and optimization was done to ensure performance was sufficient before being used to solder expensive hardware.
 
 
-# Other...
----
+## 🚧 Other...
 
 Some other areas that fascinate me and that I want to learn and create in:
 - Virtual/mixed/augmented reality
