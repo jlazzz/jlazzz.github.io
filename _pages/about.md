@@ -9,6 +9,7 @@ redirect_from:
 
 Hey, I'm Josh! I have a BSc in Engineering Physics from the University of Alberta. I've had the pleasure of working on many cool projects with many cool people. Here's a bit about them.
 
+# Navigation
 * TOC
 {:toc}
 
@@ -25,10 +26,10 @@ Hey, I'm Josh! I have a BSc in Engineering Physics from the University of Albert
 ## Integration and Testing
 
 I managed all testing activities for Northern SPIRIT satellites. We took an iterative approach to testing, utilizing rapid prototyping, engineering models, and FlatSats (pictured below) to rapidly test and find problems as early as possible.
-![flatsat](/images/flatsat.png)
+<img src="/images/flatsat.png" alt="flatsat" width="400"/>  
 
 After sweat, tears (no blood, luckily), thermal and vibration testing we had three functional ready-to-launch satellites!
-![cubesats](/images/cubesats.jpg)
+<img src="/images/cubesats.jpg" alt="cubesats" width="400"/>  
 
 ## Systems Engineering
 
@@ -47,9 +48,9 @@ My team presented a poster on this work at the Small Satellite Conference in 202
 
 Applications of Systems Engineering Methodologies to an Undergraduate Student Volunteer-Led CubeSat Constellation [https://digitalcommons.usu.edu/smallsat/2023/all2023/140/](https://digitalcommons.usu.edu/smallsat/2023/all2023/140/)
 
-<iframe src="files/systems_eng_methodologies.pdf" width="100%" height="600px"></iframe>
+<iframe src="files/systems_eng_methodologies.pdf" width="100%" height="600px"></iframe>  
 
-## Embedded Hardware Design
+## Embedded Systems
 
 ### Athena On-Board Computer
 
@@ -92,24 +93,24 @@ S-Band
 - Adjustable baud rate: 2 to 10 Mb/s
 - Descrambler
 
-![UHF](/images/uhf_sdr_gnuradio.png)
+![UHF](/images/uhf_sdr_gnuradio.png)  
 
 ### Charon GPS Receiver
 
 I designed, built, and tested Charon, an open-source GPS receiver PCB. It also does a few other mission-specific things (thermistor interface, payload connector adapter, power switch latch).
 
-![pcb](/images/charon.png)
+<img src="/images/charon.png" alt="charon" width="400"/>  
 
 ## Software Development
 Developed the driver code for ICs and peripherals on the Athena OBC, including SD card integration with file system and telemetry integration with FreeRTOS: [https://github.com/AlbertaSat/ex2_obc_software](https://github.com/AlbertaSat/ex2_obc_software)
-Integrated ground station software data handling with GNURadio frontend, including beacon parsing and decoding: [https://github.com/AlbertaSat/ex2_ground_station_software](https://github.com/AlbertaSat/ex2_ground_station_software)
+Integrated ground station software data handling with GNURadio frontend, including beacon parsing and decoding: [https://github.com/AlbertaSat/ex2_ground_station_software](https://github.com/AlbertaSat/ex2_ground_station_software)  
 
 # Capstone Project - Open-Source CubeSat Optical Downlink Receiver and Processing System 
 In my final year of Engineering Physics I realized a high-performance lasercom system with two of my colleagues and presented the poster at [SmallSat](https://smallsat.org/) 2022 in Logan, Utah. I learned a lot about signal processing and implemented it C, which was run on an embedded system with high-speed DAC and ADC.
 
 [https://github.com/joshdellaz/laser_satellite_receiver](https://github.com/joshdellaz/laser_satellite_receiver)
 
-<iframe src="files/capstone_poster.pdf" width="100%" height="600px"></iframe>
+<iframe src="files/capstone_poster.pdf" width="100%" height="600px"></iframe>  
 
 
 # Misc.
@@ -120,7 +121,7 @@ I wanted a barebones and extremely simple web-based habit tracker, so I made one
 
 ## Orbit Modelling w/ Ansys STK for Satellite Return Rate
 
-I created a simple simulation in ![STK](https://www.ansys.com/products/missions/ansys-stk) to estimate downlink time at various ground stations in Canada, given a specific antenna radiation pattern.
+I created a simple simulation in [STK](https://www.ansys.com/products/missions/ansys-stk) to estimate downlink time at various ground stations in Canada, given a specific antenna radiation pattern.
 
 ## Toaster Reflow Oven
 
